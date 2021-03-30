@@ -1,0 +1,25 @@
+{
+  "name": "cypressrepo1",
+  "version": "1.0.0",
+  "description": "cypress automation for regression and e2e testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/work-tejas1/Cypress_Repo1.git"
+  },
+  "keywords": [
+    "cypressrepo1"
+  ],
+  "author": "work-tejas1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/work-tejas1/Cypress_Repo1/issues"
+  },
+  "homepage": "https://github.com/work-tejas1/Cypress_Repo1#readme",
+  "devDependencies": {
+    "cypress": "^6.8.0"
+  }
+}
