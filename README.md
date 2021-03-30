@@ -7,7 +7,7 @@
 - Download https://nodejs.org/en/download/ and install based on your system.
 - Set set Environment Variables = *Under Search type Environment Variables then click on Environment Variables under System variables click on New... (variable name *NODE_HOME*, Variable Value = *C:\Program Files\nodejs*)*.
 - Download https://code.visualstudio.com/Download Visual Studio Code and install based on your system. **Install with Default Configuration**
-- Generate package.json for your project. (Similar to pom.xml for Maven). Open VS code then unser terminal **npm init** enter required details.
+- Generate package.json for your project. (Similar to pom.xml for Maven). Open VS code then using terminal execute **npm init** and enter required details.
 - Install cypress repo using **npm install cypress --save-dev** and wait for installtion.
 - To open Cypress run **node_modules\.bin\cypress open** in terminal.
  
