@@ -33,9 +33,16 @@ describe('My First Suit', function () {
         {
         $element.find('button').click()
         }
-
         })
           
+        //understanding THEN function due to asynchronous nature of cypress
+        cy.get('.brand').then(function(logoElement)
+        {
+            cy.log(logoElement.text())
+
+        }
+        )
+       
     
 
 
