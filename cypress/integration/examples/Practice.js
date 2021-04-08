@@ -29,7 +29,7 @@ describe('My First Suit', function () {
         })
         
         //ASSERT 
-        cy.get('.brand').should('have.text','GREENKART11')
+        cy.get('.brand').should('have.text','GREENKART')
 
         //understanding THEN function due to asynchronous nature of cypress
         cy.get('.brand').then(function(logoElement)
