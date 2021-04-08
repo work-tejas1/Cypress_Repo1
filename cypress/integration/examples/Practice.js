@@ -26,11 +26,10 @@ describe('My First Suit', function () {
         //click on add to cart
         // cy.get('.products').find('.product').eq(2).contains('ADD TO CART').click()
 
-        //find text and then click 
+        //find text and then click (using loop to iterare each element) 
         cy.get('.products').find('.product').each(($element, index, $list) => {
-
         const nameVeg = $element.find('h4.product-name').text()
-        if(nameVeg.includes('Capsicum'))    //click on Capsicum
+        if(nameVeg.includes('Carrot'))    //click on Capsicum
         {
         $element.find('button').click()
         }
