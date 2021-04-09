@@ -13,8 +13,20 @@ describe('My Second Suit', function () {
     
         //Static Dropdown
         cy.get('select').select('option3').should('have.value','option3')
+
+        //Dynamic dropdown
+        cy.get('#autocomplete').type('Ger')
+        cy.get('.ui-menu-item div').each(($element, index, $list) => { 
+        //Travel, parent to child, find common element then iterate each element
         
+            if($element.text()==="Germany")    
+            {
+                $element.click()
+            }
+
+
         
+    })
 
     })
 
