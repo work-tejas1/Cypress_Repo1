@@ -23,10 +23,15 @@ describe('My Second Suit', function () {
             {
                 $element.click()
             }
-
-
-        
     })
+        cy.get('#autocomplete').should('have.value','Germany')
+
+        // check visibility 
+        cy.get('#displayed-text').should('be.visible')
+        cy.get('#hide-textbox').click()
+        cy.get('#displayed-text').should('not.be.visible')
+        cy.get('#show-textbox').click()
+        cy.get('#displayed-text').should('be.visible')
 
     })
 
