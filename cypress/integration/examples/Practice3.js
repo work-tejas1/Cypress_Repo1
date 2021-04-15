@@ -11,7 +11,7 @@ describe('My Third Suit', function () {
         //Fire event on browser/ manupulate DOM
         cy.on('window:alert',(str) =>
         {
-            expect(str).to.equals('Hello , share this kjfwekenbf')
+            expect(str).to.equals('Hello , share this practice page and share your knowledge')
 
         })
 
