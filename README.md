@@ -10,4 +10,8 @@
 - Generate package.json for your project. (Similar to pom.xml for Maven). Open VS code then using terminal execute **npm init** and enter required details.
 - Install cypress repo using **npm install cypress --save-dev** and wait for installtion.
 - To open Cypress run **./node_modules/.bin/cypress open** in terminal.
+- (Install dependencies)  
+'''$ npm install --dev mocha
+	$ npm install --dev mochawesome
+	$ npm install --dev mochawesome-merge'''
  
