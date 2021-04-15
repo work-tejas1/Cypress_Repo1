@@ -11,7 +11,12 @@
 - Install cypress repo using **npm install cypress --save-dev** and wait for installtion.
 - To open Cypress run **./node_modules/.bin/cypress open** in terminal.
 - (Install dependencies)  
-'''$ npm install --dev mocha
+
+  ```
+	$npm install --dev mocha
 	$ npm install --dev mochawesome
-	$ npm install --dev mochawesome-merge'''
+	$ npm install --dev mochawesome-merge
+
+	```
+
  
