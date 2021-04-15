@@ -13,17 +13,9 @@ describe('My Third Suit', function () {
         {
             expect(str).to.equals('Hello , share this kjfwekenbf')
 
-        }
+        })
 
-
-
-
-
-
-
-
-
-
+    
     })
 
 })

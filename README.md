@@ -13,7 +13,7 @@
 - (Install dependencies)  
 
   ```
-	$npm install --dev mocha
+	$ npm install --dev mocha
 	$ npm install --dev mochawesome
 	$ npm install --dev mochawesome-merge
 
