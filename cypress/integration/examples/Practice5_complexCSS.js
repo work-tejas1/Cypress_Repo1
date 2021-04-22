@@ -7,7 +7,7 @@ describe('My Third Suit', function () {
        cy.get('table tr td:nth-child(7)').each(($element, index, $list) => {
        const points = $element.text()
        cy.log(points)
-       })
+       }) 
     })
 
 })
