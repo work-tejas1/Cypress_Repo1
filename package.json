@@ -24,6 +24,7 @@
     "cypress-iframe": "^1.0.1"
   },
   "dependencies": {
+    "cypress-xpath": "^1.6.2",
     "mocha": "^8.3.2",
     "mochawesome": "^6.2.2",
     "mochawesome-merge": "^4.2.0"
