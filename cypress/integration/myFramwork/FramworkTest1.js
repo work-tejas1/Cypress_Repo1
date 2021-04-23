@@ -23,6 +23,7 @@ describe('My First Suit', function ()
         cy.get('button[type="submit"]').click()
         cy.get('span[class*="Nickname"]').then(function(Nickname)
         {
+            cy.get('span[class*="Nickname"]').should('have.text',this.data.nickname)
             cy.log(Nickname.text())
 
         })
