@@ -26,6 +26,13 @@ describe('My First Suit', function ()
             cy.log(Nickname.text())
 
         })
+
+        //How to use x-path
+       /*  cy.xpath('//*[contains(@class,"Nickname")]').then(function(Nickname)
+        {
+            cy.log(Nickname.text())
+
+        }) */
         
   
     })
