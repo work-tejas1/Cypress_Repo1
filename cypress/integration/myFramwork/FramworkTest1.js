@@ -3,7 +3,7 @@
 describe('My First Suit', function () 
 {
         before(() => {
-          // runs once before all tests in the block
+          // runs once before all tests in the block  //Resolve promise is important 
           cy.fixture('data').then(function(data)
           {
             this.data=data
