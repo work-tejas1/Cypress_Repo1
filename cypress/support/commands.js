@@ -13,10 +13,7 @@
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
     Cypress.Commands.add('customCommand1', (email, password) => { 
-
         cy.log('Custom command executed')
-
-
      })
 
 
