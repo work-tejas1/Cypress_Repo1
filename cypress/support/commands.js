@@ -12,6 +12,15 @@
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 //
+    Cypress.Commands.add('customCommand1', (email, password) => { 
+
+        cy.log('Custom command executed')
+
+
+     })
+
+
+
 //
 // -- This is a child command --
 // Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })

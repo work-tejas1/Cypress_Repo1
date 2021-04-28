@@ -24,8 +24,12 @@ describe('My First Suit', function ()
         {
             cy.get('span[class*="Nickname"]').should('have.text',this.data.nickname)
             cy.log(Nickname.text())
-
-        })
+            cy.customCommand1()  // can be used for repetative code
+            //this data is array array
+            this.data.card.forEach(function(cardDetails) {
+              cy.log(cardDetails)
+            });
+          })
 
         //How to use x-path
        /*  cy.xpath('//*[contains(@class,"Nickname")]').then(function(Nickname)
