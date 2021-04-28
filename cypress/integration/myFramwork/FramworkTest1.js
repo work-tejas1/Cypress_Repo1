@@ -23,7 +23,7 @@ describe('My First Suit', function ()
         cy.get('span[class*="Nickname"]').then(function(Nickname)
         {
             cy.get('span[class*="Nickname"]').should('have.text',this.data.nickname)
-            cy.pause()  //pause test
+            // cy.pause()  //pause test
             cy.log(Nickname.text())
             
             cy.customCommand1()  // can be used for repetative code
