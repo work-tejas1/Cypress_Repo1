@@ -11,7 +11,7 @@ describe('My First Suit', function ()
         })
  
     it('My First Test Case', function () {
-        cy.visit('https://unikrn.com')
+        cy.visit(Cypress.env('URL'))
         Cypress.on('uncaught:exception', (err, runnable) => {
           // returning false here prevents Cypress from failing the test
           return false
