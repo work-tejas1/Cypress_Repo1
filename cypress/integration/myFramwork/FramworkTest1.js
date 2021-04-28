@@ -36,8 +36,6 @@ describe('My First Suit', function ()
             // this.data.card.forEach(function(cardDetails) {
             //   cy.log(cardDetails)
             // });
-
-
           })
 
         //How to use x-path
