@@ -2,10 +2,10 @@
   "viewportWidth": 1920,
   "viewportHeight": 1080,
   "defaultCommandTimeout": 7000,
+  "reporter": "mochawesome",
   "env":
   {
     "URL": "https://unikrn.com/"
-  }
-
-
+  },
+    "projectId": "su9kqr"
 }
