@@ -23,12 +23,21 @@ describe('My First Suit', function ()
         cy.get('span[class*="Nickname"]').then(function(Nickname)
         {
             cy.get('span[class*="Nickname"]').should('have.text',this.data.nickname)
+            cy.pause()  //pause test
             cy.log(Nickname.text())
+            
             cy.customCommand1()  // can be used for repetative code
             //this data is array array
-            this.data.card.forEach(function(cardDetails) {
-              cy.log(cardDetails)
-            });
+
+            //for each2
+            this.data.card.forEach(cardDetails => cy.log(cardDetails));
+
+            //forEach1
+            // this.data.card.forEach(function(cardDetails) {
+            //   cy.log(cardDetails)
+            // });
+
+
           })
 
         //How to use x-path
