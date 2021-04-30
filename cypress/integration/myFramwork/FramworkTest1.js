@@ -6,7 +6,7 @@ describe('My First Suit', function ()
           // runs once before all tests in the block  //Resolve promise is important 
           cy.fixture('data').then(function(data)
           {
-            this.data=data  //this keyboard refers to whole class. Scope for entire class
+            this.data=data  //this keyboard refers to whole class. This changes Scope to entire class
           })
         })
  
