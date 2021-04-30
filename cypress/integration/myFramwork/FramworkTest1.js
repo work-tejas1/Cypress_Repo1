@@ -1,4 +1,5 @@
  /// <reference types="cypress" />
+ import HomePage from '../pageObjects/HomePage'
 
 describe('My First Suit', function () 
 {
@@ -16,10 +17,14 @@ describe('My First Suit', function ()
           // returning false here prevents Cypress from failing the test
           return false
       })
-   
-        cy.get('[name="user"]').type(this.data.email)
-        cy.get('[name="pass"]').type(this.data.password)
-        cy.get('button[type="submit"]').click()
+      const homePage = new HomePage()
+      homePage.email().type(this.data.email)
+      homePage.password().type(this.data.password)
+      homePage.loginButton().click()
+
+        // cy.get('[name="user"]').type(this.data.email)
+        // cy.get('[name="pass"]').type(this.data.password)
+        // cy.get('button[type="submit"]').click()
         cy.get('span[class*="Nickname"]').then(function(Nickname)
         {
             cy.get('span[class*="Nickname"]').should('have.text',this.data.nickname)
@@ -44,8 +49,5 @@ describe('My First Suit', function ()
             cy.log(Nickname.text())
 
         }) */
-        
-  
     })
-
 })
