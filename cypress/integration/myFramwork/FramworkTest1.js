@@ -34,10 +34,10 @@ describe('My First Suit', function ()
             cy.customCommand1()  // can be used for repetative code
             //this data is array array
 
-            //for each2
+            //for each way2 implementation
             this.data.card.forEach(cardDetails => cy.log(cardDetails));
 
-            //forEach1
+            //forEach way1 implementation
             // this.data.card.forEach(function(cardDetails) {
             //   cy.log(cardDetails)
             // });

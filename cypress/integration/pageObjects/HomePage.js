@@ -1,13 +1,16 @@
 class HomePage{
 
 email(){
-   return cy.get('[name="user"]')}
+   return cy.get('[name="user"]')
+}
 
 password(){
-    return cy.get('[name="pass"]')}
+    return cy.get('[name="pass"]')
+}
 
 loginButton(){
-    return cy.get('button[type="submit"]')}
+    return cy.get('button[type="submit"]')
+}
 
 }
 
