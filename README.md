@@ -9,12 +9,11 @@
 - Download [Visual Studio Code](https://code.visualstudio.com/Download) and install based on your system. **Install with Default Configuration**
 - Generate package.json for your project. (Similar to pom.xml for Maven). Open VS code then using terminal execute **npm init** and enter required details.
 
-- *{Sometimes windows powershell restrict execution of unsigned scripts.}
- *In this case: 
+- {Sometimes windows powershell restrict execution of unsigned scripts.}
+ In this case: 
  (Start Windows PowerShell with the **"Run as Administrator"** option. Only members of the Administrators group on the computer can change the execution policy. Enable running unsigned scripts by entering:)
 
 	```
-	
 	set-executionpolicy remotesigned
 	
 	```
