@@ -15,7 +15,6 @@
 
 	```
 	set-executionpolicy remotesigned
-	
 	```
 This will allow running unsigned scripts that you write on your local computer and signed scripts from Internet.
 
