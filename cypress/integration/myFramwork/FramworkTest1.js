@@ -19,6 +19,7 @@ describe('My First Suit', function ()
       })
       const homePage = new HomePage()
       homePage.email().type(this.data.email)
+      //.type('demo.admin',{delay:200})
       homePage.password().type(this.data.password)
       homePage.loginButton().click()
 
