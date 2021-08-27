@@ -18,11 +18,11 @@ describe('My First Suit', function ()
           return false
       })
       const homePage = new HomePage()
-      homePage.email().type(this.data.email)
+      homePage.email().type(this.data.email,{delay:100})
       //.type('demo.admin',{delay:200})
       homePage.password().type(this.data.password)
       homePage.loginButton().click()
-
+      cy.pause()
         // cy.get('[name="user"]').type(this.data.email)
         // cy.get('[name="pass"]').type(this.data.password)
         // cy.get('button[type="submit"]').click()
